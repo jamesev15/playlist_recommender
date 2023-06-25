@@ -15,12 +15,12 @@ class Music(BaseModel):
     name: str
     artists: list[Artist]
 
-    def printfy(self) -> str:
+    def display_info(self) -> str:
         return f'{self.name} | {",".join([artist.name for artist in self.artists])}'
 
 
 def get_music_history(
-    time_range: str = "short_term", limit: int = 8
+    time_range: str = "short_term", limit: int = 50
 ) -> list[Music]:
     TRACKS_ENDPOINT = f"v1/me/top/tracks?time_range={time_range}&limit={limit}"
 
