@@ -12,6 +12,9 @@ Set the below environment variables
 `export SPOTIFY_TOKEN=<SPOTIFY_TOKEN>`  
 `export OPENAI_API_KEY=<OPENAI_API_KEY>` 
 
+# Packages
+`pip install -r requirements.txt`  
+
 # Pre process
 To extract musics from your spotify account and save in the vector store  
 `python3 pre_process.py`
