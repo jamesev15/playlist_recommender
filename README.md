@@ -1,4 +1,4 @@
-# Playlist Recommender Based on Spotify, Powered by GPT
+# Spotify Playlist Recommender using GPT.
 Imagine waking up with a particular song in mind and wanting to find a playlist that captures a similar vibe. The project leverages your Spotify music history and utilizes GPT technology to suggest playlists based on similar feelings, emotions, and moods.  
 
 By analyzing your entire music history, GPT identifies the emotions and moods associated with each track. When you provide the name of the single you have in mind, a cosine similarity algorithm is employed to identify the closest matches within your music library.  
