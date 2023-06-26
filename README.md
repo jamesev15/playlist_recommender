@@ -14,11 +14,11 @@ Set the below environment variables
 
 # Pre process
 To extract musics from your spotify account and save in the vector store  
-`PYTHONPATH=. python3 pre_process/handler.py`
+`python3 pre_process.py`
 
 # Process
-Get playlist based on a music  
-`PYTHONPATH=. python3 process/handler.py`
+Get playlist based on a song  
+`python3 process.py`
 
 # Test
 Enter the music name: *wonderwall*  
